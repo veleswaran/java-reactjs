@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import GetApi from './Components/GetApi';
 import PostApi from './Components/PostApi';
+import GetApiId from './Components/GetApiId';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <PostApi/>
+    <GetApiId userId={52}/>
+    {/* <PostApi/> */}
+    {/* <GetApi/> */}
   </React.StrictMode>
 );
 
